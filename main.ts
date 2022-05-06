@@ -1,0 +1,40 @@
+basic.showString("HOLA SOC DAIA!!")
+music.playTone(370, music.beat(BeatFraction.Whole))
+music.playTone(370, music.beat(BeatFraction.Half))
+music.playTone(392, music.beat(BeatFraction.Half))
+music.playTone(440, music.beat(BeatFraction.Whole))
+music.playTone(370, music.beat(BeatFraction.Half))
+music.playTone(330, music.beat(BeatFraction.Half))
+music.playTone(294, music.beat(BeatFraction.Half))
+music.playTone(247, music.beat(BeatFraction.Half))
+music.playTone(294, music.beat(BeatFraction.Half))
+music.playTone(330, music.beat(BeatFraction.Half))
+music.playTone(370, music.beat(BeatFraction.Double))
+music.playTone(392, music.beat(BeatFraction.Whole))
+music.playTone(440, music.beat(BeatFraction.Half))
+music.playTone(392, music.beat(BeatFraction.Half))
+music.playTone(370, music.beat(BeatFraction.Whole))
+music.playTone(392, music.beat(BeatFraction.Half))
+music.playTone(370, music.beat(BeatFraction.Half))
+music.playTone(330, music.beat(BeatFraction.Double))
+music.playTone(440, music.beat(BeatFraction.Double))
+music.playTone(370, music.beat(BeatFraction.Whole))
+music.playTone(370, music.beat(BeatFraction.Half))
+music.playTone(392, music.beat(BeatFraction.Half))
+music.playTone(440, music.beat(BeatFraction.Whole))
+music.playTone(370, music.beat(BeatFraction.Half))
+music.playTone(349, music.beat(BeatFraction.Half))
+music.playTone(294, music.beat(BeatFraction.Half))
+music.playTone(247, music.beat(BeatFraction.Half))
+music.playTone(294, music.beat(BeatFraction.Half))
+music.playTone(330, music.beat(BeatFraction.Half))
+music.playTone(370, music.beat(BeatFraction.Double))
+basic.forever(function () {
+    basic.showLeds(`
+        . # . # .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `)
+})
